@@ -23,7 +23,7 @@ Créer un dépôt :
     ```-p```, ``` --template <repository>``` | Baser le dépôt sur une template
     ```-t```, ``` --team <name>``` | Autoriser l'accès à un groupe ou une organisation
     ```-c```, ``` --clone``` | Cloner le dépôt dans le dossier courant
-
+  
 <br>
 
 Fork un dépôt:
@@ -131,6 +131,7 @@ Lister les pulls request :
     ```-A```, ``` --author <string>``` | Filtrer par auteur
     ```-s```, ``` --state <string> (default "open")``` | Filtrer par Statut: {open\|closed\|merged\|all}
     ```-l```, ``` --label <strings>``` | Filter par label
+  
 <br>
 
 Afficher le status des pull request qui te concerne :
@@ -144,6 +145,7 @@ Voir une pull request spécifique :
     Options | Description 
     --- | --- 
     ```-c```, ``` --comments``` | Voir les commentaire d'une pull request
+  
 <br>
 
 Voir les détails d'une pull request :
@@ -176,7 +178,7 @@ Réouvrir une pull request :
     Options | Description 
     --- | --- 
     ```-c```, ``` --comment <string>``` | Laisser un commentaire de réouverture
-
+  
 <br>
 
 ### **Gestion des workflows**
