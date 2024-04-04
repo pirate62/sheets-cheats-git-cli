@@ -79,7 +79,6 @@ Voir une issue spécifique :
     Options | Description 
     --- | --- 
     ```-c```, ``` --comments``` | Voir les commentaires d'une issue
-  
 <br>
 
 Fermer une issue :
@@ -196,5 +195,5 @@ Active un workflow, lui permetant d'être exécuté :
 Désactive un workflow, l'empéchant d'être exéctué :
 
 - ```gh workflow disable [<workflow-id> | <workflow-name>]```
-  
+
 <br>
