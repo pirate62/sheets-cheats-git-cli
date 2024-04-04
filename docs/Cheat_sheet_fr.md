@@ -153,6 +153,7 @@ Réouvrir une pull request :
     Options | Description 
     --- | --- 
     ```-c```, ``` --comment <string>``` | Laisser un commentaire de réouverture
+  
 <br>
 
 ### **Gestion des workflows**
