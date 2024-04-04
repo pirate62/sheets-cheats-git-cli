@@ -7,7 +7,7 @@
 Se connecter à un compte GitHub:
 
 - ```gh auth login```  
-  
+
 Retirer l'authentification à un compte GitHub
 
 - ```gh auth logout``` 
@@ -23,6 +23,7 @@ Créer un dépôt :
     ```-p```, ``` --template <repository>``` | Baser le dépôt sur une template
     ```-t```, ``` --team <name>``` | Autoriser l'accès à un groupe ou une organisation
     ```-c```, ``` --clone``` | Cloner le dépôt dans le dossier courant
+
 <br>
 
 Fork un dépôt:
@@ -41,6 +42,7 @@ Voir un dépôt :
     --- | --- 
     ```-b```, ``` --branch <string>``` | Voir une branche du dépôt
     ```-w```, ``` --web``` | Ouvrir un dépôt dans l'explorateur web
+
 <br>
 
 ### **Gestion des issues**
@@ -54,6 +56,7 @@ Créer une issue :
     ```-t```, ``` --title <string>``` | Donner un titre
     ```-l```, ``` --label <name>``` | Ajouter un label par nom
     ```-a```, ``` --assignee <login>``` | Assigner quelqun par leur login. Utiliser "@me" pour l'assigner à soit même
+
 <br>
 
 Lister les issues :
@@ -66,6 +69,7 @@ Lister les issues :
     ```-A```, ``` --author <string>``` | Filtrer par auteur
     ```-s```, ``` --state <string> (default "open")``` | Filtrer par statut: {open\|closed\|all}
     ```-l```, ``` --label <strings>``` | Filtrer par label
+
 <br>
 
 Afficher le status des issues qui te concerne :
@@ -75,10 +79,11 @@ Afficher le status des issues qui te concerne :
 Voir une issue spécifique :
 
 - ```gh issue view {<number> | <url>} [flags]``` 
-  
+
     Options | Description 
     --- | --- 
     ```-c```, ``` --comments``` | Voir les commentaires d'une issue
+
 <br>
 
 Fermer une issue :
@@ -89,15 +94,17 @@ Fermer une issue :
     --- | --- 
     ```-c```, ``` --comment <string>``` | laisser un commentaire de clôture
     ```-r```, ``` --reason <string>``` | Raison de la clôture
+
 <br>
 
 Reouvir une issue :
 
 - ```gh issue reopen {<number> | <url>} [flags]```
- 
+
     Options | Description 
     --- | --- 
     ```-c```, ``` --comment <string>``` | Laisser un commentaire de réouverture
+
 <br>
 
 ### **Gestion des pull requests**
@@ -111,6 +118,7 @@ Créer une pull request :
     ```-B```, ``` --base <branch>``` | La branche dans laquelle vous voulez merge votre code
     ```-f```, ``` --fill``` | Utiliser les infos du commit pour le titre et corps
     ```-l```, ``` --label <name>``` | Ajouter un label par nom
+
 <br>
 
 Lister les pulls request :
@@ -128,7 +136,7 @@ Lister les pulls request :
 Afficher le status des pull request qui te concerne :
 
 - ```gh pr status``` 
-  
+
 Voir une pull request spécifique :
 
 - ```gh pr view {<number> | <url> | <branch>} [flags]```
@@ -158,6 +166,7 @@ Fermer une pull request :
     --- | --- 
     ```-c```, ``` --comment <string>``` | Leave a closing comment
     ```-d```, ``` --delete-branch``` | Supprimer la branche locale et distante aprés la fermeture
+
 <br>
 
 Réouvrir une pull request :
@@ -167,7 +176,7 @@ Réouvrir une pull request :
     Options | Description 
     --- | --- 
     ```-c```, ``` --comment <string>``` | Laisser un commentaire de réouverture
-  
+
 <br>
 
 ### **Gestion des workflows**
