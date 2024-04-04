@@ -4,14 +4,17 @@
 
 ### **authentification**
 Se connecter à un compte GitHub:
+
 - ```gh auth login```  
   
 Retirer l'authentification à un compte GitHub
+
 - ```gh auth logout``` : 
 
 ### **Gestion des dépôt**
 
 Créer un dépôt :
+
 - ```gh repo create [<name>] [flags]``` 
 
     Options | Description 
@@ -20,6 +23,7 @@ Créer un dépôt :
     ```-t```, ``` --team <name>``` | Autoriser l'accès à un groupe ou une organisation
     ```-c```, ``` --clone``` | Cloner le dépôt dans le dossier courant
 <br>
+
 Fork un dépôt:
 
 - ```gh repo fork [<repository>] [flags]``` 
@@ -37,6 +41,7 @@ Voir un dépôt :
 <br>
 
 ### **Gestion des issues**
+
 Créer une issue :
 
 - ```gh issue create [flags]``` 
@@ -47,6 +52,7 @@ Créer une issue :
     ```-l```, ``` --label <name>``` | Ajouter un label par nom
     ```-a```, ``` --assignee <login>``` | Assigner quelqun par leur login. Utiliser "@me" pour l'assigner à soit même
 <br>
+
 Lister les issues :
 
 - ```gh issue list [flags]``` 
@@ -58,11 +64,13 @@ Lister les issues :
     ```-s```, ``` --state <string> (default "open")``` | Filtrer par statut: {open\|closed\|all}
     ```-l```, ``` --label <strings>``` | Filtrer par label
 <br>
-: Afficher le status des issues qui te concerne :
+
+Afficher le status des issues qui te concerne :
 
 - ```gh issue status``` 
 
 Voir une issue spécifique :
+
 - ```gh issue view {<number> | <url>} [flags]``` 
   
     Options | Description 
@@ -177,7 +185,6 @@ Execute un workflow :
 Active un workflow, lui permetant d'être exécuté :
 
 - ```gh workflow enable [<workflow-id> | <workflow-name>]``` 
-
 
 Désactive un workflow, l'empéchant d'être exéctué :
 
