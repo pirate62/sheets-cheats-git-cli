@@ -10,7 +10,7 @@ Se connecter à un compte GitHub:
   
 Retirer l'authentification à un compte GitHub
 
-- ```gh auth logout``` : 
+- ```gh auth logout``` 
 
 ### **Gestion des dépôt**
 
