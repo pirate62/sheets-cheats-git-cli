@@ -76,11 +76,13 @@ Voir une issue spécifique :
     Options | Description 
     --- | --- 
     ```-c```, ``` --comments``` | Voir les commentaires d'une issue
+  
 <br>
 
 Fermer une issue :
 
-- ```gh issue close {<number> | <url>} [flags]``` 
+- ```gh issue close {<number> | <url>} [flags]```
+
     Options | Description 
     --- | --- 
     ```-c```, ``` --comment <string>``` | laisser un commentaire de clôture
@@ -89,7 +91,8 @@ Fermer une issue :
 
 Reouvir une issue :
 
-- ```gh issue reopen {<number> | <url>} [flags]```  
+- ```gh issue reopen {<number> | <url>} [flags]```
+ 
     Options | Description 
     --- | --- 
     ```-c```, ``` --comment <string>``` | Laisser un commentaire de réouverture
@@ -126,7 +129,8 @@ Afficher le status des pull request qui te concerne :
   
 Voir une pull request spécifique :
 
-- ```gh pr view {<number> | <url> | <branch>} [flags]``` : 
+- ```gh pr view {<number> | <url> | <branch>} [flags]```
+
     Options | Description 
     --- | --- 
     ```-c```, ``` --comments``` | Voir les commentaire d'une pull request
