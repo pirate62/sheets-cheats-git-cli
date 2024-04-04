@@ -3,6 +3,7 @@
 # Cheat-sheet des commandes ```gh```
 
 ### **authentification**
+
 Se connecter à un compte GitHub:
 
 - ```gh auth login```  
@@ -29,9 +30,11 @@ Fork un dépôt:
 - ```gh repo fork [<repository>] [flags]``` 
 
 Cloner un dépôt : 
+
 - ```gh repo clone <repository> [<directory>]``` 
 
 Voir un dépôt :
+
 - ```gh repo view [<repository>] [flags]``` 
 
     Options | Description 
